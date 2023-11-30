@@ -7,8 +7,17 @@ public class main2 {
               int liArcher = 24;
               int liRider= 46;
 //  Сила династии Минь
-              int MiVoin = 9;
-              int MiArcher = 35;
-              int MiRider= 12;
+              int miVoin = 9;
+              int miArcher = 35;
+              int miRider = 12;
+//  Сумма династии Ли
+              int liArmy = 860 * (liVoin + liArcher + liRider);
+//  Сумма династии Минь
+
+
+              double miArmy = (860 * 1.5) * (miRider + miArcher + miVoin);
+        System.out.println("Сила армии династии Ли =" + liArmy);
+        System.out.println("Сила армии династии Минь =" + miArmy);
+        System.out.println(" Победит династия Минь");
     }
 }
